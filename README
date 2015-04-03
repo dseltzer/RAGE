@@ -1,0 +1,27 @@
+*************** Deploy ***************
+Download war or build using directions below
+Deploy to favorite servlet container
+Put RAGE-config.groovy on classpath containing the following parameters
+grails.serverURL = "http://IP:PORT/RAGE-1.0"
+rage.server.url = "IP:PORT/RAGE-1.0"
+rage.default.marker.color = "ff0000"
+
+*************** Build ***************
+Install grails-1.3.2
+
+checkout source  
+	svn checkout http://rss-atom-in-google-earth.googlecode.com/svn/trunk/ rss-atom-in-google-earth-read-only
+
+Re-instate files that are not committed to repository
+	cd rss-atom-in-google-earth-read-only 
+	grails upgrade
+
+Run application locally
+	grails run-app
+	http://localhost:8080/RAGE
+
+Build war
+	grails war
+
+Run tests
+	grails test-app

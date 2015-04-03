@@ -1,0 +1,11 @@
+tsunami warnings for Pacific: http://www.prh.noaa.gov/ptwc/feeds/ptwc_rss_pacific.xml
+
+seven day earthquake feed: http://earthquake.usgs.gov/eqcenter/recenteqsww/catalogs/eqs7day-M2.5.xml
+
+
+more:
+http://data.octo.dc.gov/feeds/crime_incidents/crime_incidents_current.xml
+
+http://georss.org/blog/category/contentfeed/
+
+http://www.fmepedia.com/index.php/GeoRSS_Feeds
